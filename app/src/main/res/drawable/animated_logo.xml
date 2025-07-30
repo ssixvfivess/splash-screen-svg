@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/dog_svgrepo_com__1_">
+    android:drawable="@drawable/vecteezy_vector_pet_shop_logo_design_template_modern_animal_icon_6470422">
 
     <target
         android:animation="@animator/logo_animator"
