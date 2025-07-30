@@ -22,18 +22,6 @@ class MainActivity : AppCompatActivity() {
             setKeepOnScreenCondition{
                 !viewModel.isReady.value
             }
-
-//            setOnExitAnimationListener{ screen ->
-//                val zoomX = ObjectAnimator.ofFloat(
-//                    screen.iconView,
-//                    View.SCALE_X,
-//                    0.4f,
-//                    0.0f
-//                )
-//                zoomX.interpolator = OvershootInterpolator()
-//                zoomX.duration = 500L
-//                zoomX.doOnEnd {screen.remove() }
-//            }
         }
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
